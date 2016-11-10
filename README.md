@@ -2,7 +2,7 @@
 
 When I develop .NET Core app on Linux, there's no Visual Studio, so I'm bothering to add a cs file. I make "dotnet add" extension as a PoC during MVP Summit 2016 Hackathon.
 
-()[./demo.gif!]
+![](./demo.gif)
 
 ## Usage
 ```
