@@ -1,3 +1,19 @@
+# Hackathon Result - "dotnet add" CLI extension
+
+When I develop .NET Core app on Linux, there's no Visual Studio, so I'm bothering to add a cs file. I make "dotnet add" extension as a PoC during MVP Summit 2016 Hackathon.
+
+()[./demo.gif!]
+
+## Usage
+```
+> dotnet add cs <ClassName>
+> dotnet add cs <Dir>/<ClassName>
+> dotnet add if <InterfaceName>
+```
+
+## Limitation
+This toolset requires csproj supporting .NET Core 1.1, so almost of Linux platforms are not supported yet. I'm looking forwart to next .NET Core 1.1 preview release.
+
 # Extensibility of the CLI toolset - sample for the hackathon
 
 This repository contains the basic sample of an extension to the MSBuild edition of the [CLI toolset for .NET Core](https://github.com/dotnet/cli). The idea of the repo is to provide an easy way to get started with developing extensions to the CLI and the SDK in terms of both MSBuild targets as well as "classic" tools that can be invoked using the `dotnet-<command>` invocation pattern.
